@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="imagedecoder.avif"
+  version="1.3.0"
+  name="AVIF image decoder"
+  provider-name="spiff">
+  <requires>@ADDON_DEPENDS@</requires>
+  <extension
+    point="kodi.imagedecoder"
+    library_@PLATFORM@="@LIBRARY_FILENAME@"
+    extension=".avif"
+    mimetype="image/avif"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">AVIF file format decoder</summary>
+    <description lang="en_GB">AVIF is a file format employing AV1 image coding.</description>
+    <platform>@PLATFORM@</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/imagedecoder.avif</source>
+  </extension>
+</addon>

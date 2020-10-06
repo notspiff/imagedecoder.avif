@@ -1,0 +1,1 @@
+libavif https://github.com/AOMediaCodec/libavif/archive/v0.8.1.tar.gz
